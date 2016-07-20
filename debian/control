@@ -50,7 +50,7 @@ Package: snapd
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, adduser,
  squashfs-tools, ubuntu-core-launcher (>= 1.0.23),
-Conflicts: snappy, snap (<< 2013-11-29-1ubuntu1)
+Conflicts: snappy, snap
 Built-Using: ${misc:Built-Using}
 Description: Tool to interact with Ubuntu Core Snappy.
  Manage an Ubuntu system with snappy.
@@ -60,7 +60,7 @@ Architecture: any
 Depends: snapd, ${misc:Depends}
 Replaces: ubuntu-snappy (<< 1.9)
 Breaks: ubuntu-snappy (<< 1.9)
-Conflicts: snap (<< 2013-11-29-1ubuntu1)
+Conflicts: snap
 Built-Using: ${misc:Built-Using}
 Description: Scripts for snapd that should only run on ubuntu core systems.
  This package contains systemd services that need to run on ubuntu core
